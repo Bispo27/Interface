@@ -1,0 +1,15 @@
+C:\Users\João Paulo Bispo\source\repos\Measure\bin\Debug\Measure.exe.config
+C:\Users\João Paulo Bispo\source\repos\Measure\bin\Debug\Measure.exe
+C:\Users\João Paulo Bispo\source\repos\Measure\bin\Debug\Measure.pdb
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\MainWindow.g.cs
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\App.g.cs
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure_MarkupCompile.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure_MarkupCompile.lref
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\MainWindow.baml
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.g.resources
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.Properties.Resources.resources
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.csproj.GenerateResource.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.csproj.CoreCompileInputs.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.exe
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.pdb
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Debug\Measure.csprojAssemblyReference.cache

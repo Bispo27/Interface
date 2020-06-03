@@ -1,0 +1,47 @@
+﻿<Window x:Class="Measure.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Measure"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="343" Width="339.067">
+    <Grid x:Name="PORT1" HorizontalAlignment="Left" Width="438" Margin="-2,0,0,5" RenderTransformOrigin="0.845,0.505">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="216*"/>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="181*"/>
+            <RowDefinition Height="126*"/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="PORT" HorizontalAlignment="Left" Margin="43,128,0,0" VerticalAlignment="Top" Width="106" SelectionChanged="PORT_SelectionChanged" AutomationProperties.Name="PORT" Height="21" IsReadOnly="True">
+            <ComboBox.GroupStyle>
+                <GroupStyle/>
+            </ComboBox.GroupStyle>
+            <ComboBox.ContextMenu>
+                <ContextMenu/>
+            </ComboBox.ContextMenu>
+        </ComboBox>
+        <Button x:Name="btConectar" Content="Conectar" HorizontalAlignment="Left" Margin="196,164,0,0" VerticalAlignment="Top" Width="96" Click="btConectar_Click" Height="20" Grid.RowSpan="2" Grid.ColumnSpan="4"/>
+        <Button x:Name="VOLTAGE_A1" Content="Atualizar" HorizontalAlignment="Left" Margin="196,128,0,0" VerticalAlignment="Top" Width="96" Click="VOLTAGE_A1_Click" Height="20" Grid.ColumnSpan="4"/>
+        <TextBlock x:Name="tst" HorizontalAlignment="Left" Margin="10,4,-10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1" Height="16" Width="0" Grid.Column="4"/>
+        <Label Content="Save Data" HorizontalAlignment="Left" Margin="95,23,0,0" VerticalAlignment="Top" Width="143" Height="55" FontSize="30" IsEnabled="False" Grid.ColumnSpan="2"/>
+        <Button x:Name="SendCommand" Content="SendCommand" HorizontalAlignment="Left" Grid.Row="1" VerticalAlignment="Top" Width="96" Height="20" Click="SendCommand_Click" IsManipulationEnabled="True" Margin="196,21,0,0" Grid.ColumnSpan="4"/>
+        <ComboBox x:Name="Command" HorizontalAlignment="Left" VerticalAlignment="Top" Width="106" SelectionChanged="PORT_SelectionChanged" AutomationProperties.Name="PORT" Height="21" IsReadOnly="True" Grid.Row="1" Margin="42,21,0,0">
+            <ComboBox.ContextMenu>
+                <ContextMenu/>
+            </ComboBox.ContextMenu>
+        </ComboBox>
+        <ComboBox x:Name="Samples" HorizontalAlignment="Left" Margin="42,0,0,32" VerticalAlignment="Bottom" Width="106" SelectionChanged="PORT_SelectionChanged" AutomationProperties.Name="Samples" Height="21" IsReadOnly="True" Grid.Row="1">
+            <ComboBox.ContextMenu>
+                <ContextMenu/>
+            </ComboBox.ContextMenu>
+        </ComboBox>
+        <Label x:Name="Número_de_amostras" Content="Número de amostras" HorizontalAlignment="Left" Margin="185,73,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.36,-0.564" Width="135" Height="26" Grid.Row="1" Grid.ColumnSpan="4"/>
+
+    </Grid>
+</Window>

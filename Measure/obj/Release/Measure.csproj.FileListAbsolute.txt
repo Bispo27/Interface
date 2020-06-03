@@ -1,0 +1,15 @@
+C:\Users\João Paulo Bispo\source\repos\Measure\bin\Release\Measure.exe.config
+C:\Users\João Paulo Bispo\source\repos\Measure\bin\Release\Measure.exe
+C:\Users\João Paulo Bispo\source\repos\Measure\bin\Release\Measure.pdb
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.csprojAssemblyReference.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\MainWindow.g.cs
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\App.g.cs
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure_MarkupCompile.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure_MarkupCompile.lref
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\MainWindow.baml
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.g.resources
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.Properties.Resources.resources
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.csproj.GenerateResource.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.csproj.CoreCompileInputs.cache
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.exe
+C:\Users\João Paulo Bispo\source\repos\Measure\obj\Release\Measure.pdb
